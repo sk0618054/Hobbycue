@@ -428,6 +428,7 @@ input[type="checkbox"] {
   .main-head {
     position: absolute;
     left: 50px;
+    top: 50px;
   }
   .feature1-box {
     height: 142px;

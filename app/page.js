@@ -357,7 +357,7 @@ export default function Home() {
                 Sign In
               </div>
               <div
-                className="joinin"
+                className="joinin "
                 //  when Join in
                 onClick={() => setIsSignin(false)}
                 style={
@@ -447,24 +447,23 @@ export default function Home() {
 
                   {/* when Join in */}
 
-                  <div style={isSignin ? { display: "none" } : {}}>
+                  <div
+                    style={isSignin ? { display: "none" } : {}}
+                    className="password-strength"
+                  >
                     <div
                       style={{
-                        fontWeight: 600,
-                        fontSize: 10,
                         color: "rgba(147, 156, 163, 1)",
-                        marginLeft: 314,
-                        marginTop: -20,
                       }}
+                      className="child1"
                     >
                       Password strength
                     </div>
-                    <div>
+                    <div className="child2">
                       <div className="d-flex justify-content-between sign-in-box-bottom">
                         <div
-                          className="d-flex "
+                          className="d-flex  by-continuing"
                           style={{
-                            margin: "12px 0",
                             color: "rgba(109, 116, 122, 1)",
                           }}
                         >
@@ -723,9 +722,12 @@ export default function Home() {
                   alt=""
                   width={100}
                   height={100}
-                  className=""
+                  className="hobbycue-logo"
                 />
-                <div style={{ margin: "24px 0px 24px 24px " }}>
+                <div
+                  style={{ margin: "24px 0px 24px 24px " }}
+                  className="hobbycue-logo"
+                >
                   <div
                     style={{
                       fontWeight: 600,
@@ -840,7 +842,7 @@ export default function Home() {
               <div>Community</div>
             </div>
             {/* //Social Media */}
-            <div style={{ width: 360 }} className="social-media">
+            <div style={{}} className="social-media">
               <div>
                 <div
                   style={{
@@ -921,23 +923,19 @@ export default function Home() {
               >
                 Invite Friends
                 <form
-                  className="d-flex custom-form"
-                  style={{
-                    marginTop: 16,
-                  }}
+                  className="d-flex custom-form footer-invite-form"
+                  style={{}}
                 >
                   <input
                     className="form-control custom-search-form-control custom-input"
                     type="search"
                     placeholder="Email Id"
                     aria-label="Email Id"
-                    style={{ backgroundColor: "white", width: 360, height: 40 }}
+                    style={{ backgroundColor: "white" }}
                   />
                   <button
                     className="btn custom-search-btn "
                     style={{
-                      fontWeight: 600,
-                      fontSize: 12,
                       color: "rgba(255, 255, 255, 1)",
                     }}
                     type="submit"
@@ -959,18 +957,11 @@ export default function Home() {
         </div>
         {/* //go to top */}
         <div
-          className="d-flex flex-column"
           style={{
-            top: 2923,
-            left: 1293,
-            width: 130,
-            height: 18,
-            fontWeight: 500,
-            fontSize: 10,
             color: "rgba(128, 100, 162, 1)",
             boxShadow: "rgba(120, 120, 120, 0.14)",
-            position: "absolute",
           }}
+          className="hobbycue-logo"
         >
           <Image
             src="Group77.svg"
