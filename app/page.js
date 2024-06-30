@@ -18,29 +18,63 @@ export default function Home() {
     <div>
       {/* <Navbar /> */}
       <nav className="navbar navbar-expand-lg ">
-        {/* <div> */}
         <Image
           src="logo.svg"
           alt=""
           width={293}
           height={60}
-          // fill
-          className=""
+          className="hobbycue-logo"
           style={{ marginLeft: 97, marginRight: 35 }}
         />
-
-        {/* </div> */}
+        <Image
+          src="logo.svg"
+          alt=""
+          width={156}
+          height={32}
+          className="hobbycue-logo-sm"
+          style={{ marginLeft: 22 }}
+        />
+        <Image
+          src="searchblue.svg"
+          alt=""
+          width={24}
+          height={24}
+          style={{ marginLeft: 27 }}
+          className="hobbycue-logo-sm"
+        />
+        <Image
+          src="bell.svg"
+          alt=""
+          width={24}
+          height={24}
+          style={{ marginLeft: "-15px" }}
+          className="hobbycue-logo-sm"
+        />
         <button
-          className="navbar-toggler"
+          className="navbar-toggler border-0"
           type="button"
           data-bs-toggle="collapse"
           data-bs-target="#navbarSupportedContent"
           aria-controls="navbarSupportedContent"
           aria-expanded="false"
           aria-label="Toggle navigation"
+          style={{
+            height: 24,
+            width: 24,
+            marginRight: 23,
+            marginLeft: "-15px",
+          }}
         >
-          <span className="navbar-toggler-icon"></span>
+          <Image
+            src="menu1.svg"
+            alt=""
+            width={24}
+            height={24}
+            className="hobbycue-logo-sm border-0"
+            style={{ marginLeft: "-12px", marginTop: "-5px" }}
+          />
         </button>
+
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <form className="d-flex custom-form">
             <input
@@ -286,12 +320,21 @@ export default function Home() {
               </div>
             </div>
 
-            <div className="home-screen-left-image">
+            <div className="home-screen-left-image hobbycue-logo">
               <Image
                 src="Group27.svg"
                 alt=""
                 width={697.07}
                 height={216}
+                className=""
+              />
+            </div>
+            <div className="home-screen-left-image hobbycue-logo-sm">
+              <Image
+                src="Group27.svg"
+                alt=""
+                width={312}
+                height={96.74}
                 className=""
               />
             </div>
@@ -331,19 +374,19 @@ export default function Home() {
               </div>
             </div>
             <div className="continue-with-both">
-              <div style={{ marginTop: 32 }}>
-                <button className="btn button-continue-with">
+              <div style={{ marginTop: 32 }} className="google-facebook-button">
+                <button className="btn button-continue-with button-continue-with-google">
                   <Image
                     src="Google.svg"
                     alt=""
                     width={16}
                     height={16}
-                    className="continue-with-icon"
+                    className="continue-with-icon icon-google"
                   />
                   Continue with Google
                 </button>
                 <button
-                  className="btn button-continue-with"
+                  className="btn button-continue-with button-continue-with-facebook"
                   style={{ marginBottom: 0 }}
                 >
                   <Image
@@ -351,7 +394,7 @@ export default function Home() {
                     alt=""
                     width={16}
                     height={16}
-                    className="continue-with-icon"
+                    className="continue-with-icon icon-facebook"
                   />
                   Continue with Facebook
                 </button>
@@ -452,7 +495,12 @@ export default function Home() {
                         <input
                           type="checkbox"
                           name="checkbox"
-                          className="checkbox"
+                          className="checkbox hobbycue-logo"
+                        />
+                        <input
+                          type="checkbox"
+                          className="checkboxsm hobbycue-logo-sm"
+                          style={{ height: 16, width: 16 }}
                         />
                         &nbsp; Remember me
                       </div>
@@ -483,8 +531,8 @@ export default function Home() {
           </div>
         </div>
         {/* //Feature1 */}
-        <div style={{ margin: 100 }} className="d-flex ">
-          <div style={{ marginRight: 24 }}>
+        <div style={{}} className="d-flex feature1-box-top ">
+          <div style={{}} className="feature1-box-top-section">
             {/* Box1 */}
             <div
               className="feature1-box feature1-box-people"
@@ -584,7 +632,10 @@ export default function Home() {
           </div>
         </div>
         {/* //Testimonials */}
-        <div style={{ backgroundColor: "rgb(247,253,255)", padding: 100 }}>
+        <div
+          style={{ backgroundColor: "rgb(247,253,255)" }}
+          className="add-your-own-parent"
+        >
           <div className="add-your-own">
             <div className="feature1-box-head">
               <Image src="Add.svg" alt="" width={40} height={40} className="" />
@@ -599,8 +650,8 @@ export default function Home() {
           </div>
         </div>
         {/* //Testimonials */}
-        <div style={{ padding: 100 }}>
-          <div className="add-your-own" style={{ backgroundColor: "#f7f5f9" }}>
+        <div style={{}} className="add-your-own-parent testimonials-real">
+          <div className="add-your-own " style={{ backgroundColor: "#f7f5f9" }}>
             <div className="feature1-box-head">
               <Image
                 src="quote.svg"
@@ -644,11 +695,27 @@ export default function Home() {
                   width={776}
                   height={100}
                   style={{ marginLeft: 44 }}
-                  className=""
+                  className=" hobbycue-logo"
+                />
+                <Image
+                  src="profilesm.svg"
+                  alt=""
+                  width={264}
+                  height={64}
+                  style={{ marginLeft: 24, marginBottom: 32 }}
+                  className="hobbycue-logo-sm"
+                />
+                <Image
+                  src="audiosm.svg"
+                  alt=""
+                  width={264}
+                  height={64}
+                  style={{ marginLeft: 24 }}
+                  className="hobbycue-logo-sm"
                 />
               </div>
               <div
-                className="d-flex audio-side-profile"
+                className="d-flex audio-side-profile hobbycue-logo"
                 style={{ paddingLeft: 80 }}
               >
                 <Image
@@ -686,55 +753,43 @@ export default function Home() {
         </div>
 
         {/* //End */}
-        <div style={{ backgroundColor: "#f7fdff" }}>
-          <div
-            className="head-explore"
-            style={{ marginTop: 100, marginLeft: 100 }}
-          >
+        <div style={{ backgroundColor: "#f7fdff" }} className="end">
+          <div className="head-explore" style={{}}>
             Your <span style={{ color: "#8064a2" }}>Hobby</span> , Your &nbsp;
             <span style={{ color: "#0096c8" }}>Community...</span>
           </div>
           <button
             className="btn "
             style={{
-              marginTop: 30,
-              marginLeft: 100,
               backgroundColor: "rgba(128, 100, 162, 1)",
-              width: 147,
-              height: 46,
               color: "white",
-              fontWeight: 600,
-              fontSize: 20,
             }}
           >
             Get Started
           </button>
-          <div
-            style={{
-              marginLeft: 100,
-              paddingBottom: 30,
-              marginTop: 100,
-            }}
-          >
+
+          <div style={{}} className="end-img">
             <Image
               src="Group99.svg"
               alt=""
               width={1240}
               height={302}
-              className=""
+              className="hobbycue-logo"
+            />
+            <Image
+              src="Group99.svg"
+              alt=""
+              width={312.05}
+              height={76}
+              className="hobbycue-logo-sm"
             />
           </div>
         </div>
         {/* //Footer */}
-        <div>
+        <div className="footer">
           <div
-            className="d-flex justify-content-between"
-            style={{
-              paddingTop: 60,
-              paddingBottom: 60,
-              paddingLeft: 102,
-              paddingRight: 121,
-            }}
+            className="d-flex justify-content-between footer-next"
+            style={{}}
           >
             <div className="footer-col">
               <div
@@ -785,7 +840,7 @@ export default function Home() {
               <div>Community</div>
             </div>
             {/* //Social Media */}
-            <div style={{ width: 360 }}>
+            <div style={{ width: 360 }} className="social-media">
               <div>
                 <div
                   style={{
@@ -896,15 +951,8 @@ export default function Home() {
           <div
             style={{
               backgroundColor: "rgba(247, 245, 249, 1)",
-              paddingLeft: "600px",
-              paddingRight: "616px",
-              paddingBottom: 30,
-              paddingTop: 30,
-
-              fontWeight: 500,
-              fontSize: 14,
-              lineHeight: "18px",
             }}
+            className="copyright"
           >
             © Purple Cues Private Limited
           </div>

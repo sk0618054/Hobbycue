@@ -124,104 +124,6 @@
   color: rgba(206, 212, 218, 1);
 }
 
-@media only screen and (max-width: 600px) {
-  .navbar {
-    height: 48px;
-  }
-  .home-screen {
-    width: 360px;
-    display: flex;
-    flex-direction: column;
-  }
-  .home-screen .left {
-    width: 360px;
-    margin-top: 32px;
-    margin-left: 24px;
-  }
-  .head-explore {
-    font-weight: 600;
-    font-style: italic;
-    font-size: 18px;
-    line-height: 27px;
-  }
-  .head-explore-sign-des {
-    font-weight: 300;
-    font-size: 12px;
-    line-height: 22px;
-    color: rgba(0, 0, 0, 1);
-    margin-top: 16px;
-    width: 312px;
-  }
-  .head-explore-sign-des span {
-    display: none;
-  }
-  .head-explore-If-des {
-    display: none;
-  }
-
-  .home-screen-left-image {
-    position: absolute;
-
-    bottom: -500px;
-  }
-  .sign-in-box {
-    width: 312px;
-    height: 364px;
-    margin-top: 48px;
-    margin-left: 24px;
-    margin-right: 24px;
-  }
-  .sign-in-box .d-flex {
-    justify-content: center;
-  }
-  .sign-in-box .signin {
-    font-weight: 600;
-    font-size: 16px;
-    line-height: 24px;
-    cursor: pointer;
-    color: rgba(147, 156, 163, 1);
-    /* color: rgba(128, 100, 162, 1);
-    border-bottom: solid 2px rgba(128, 100, 162, 1); */
-  }
-
-  .sign-in-box .joinin {
-    font-weight: 600;
-    font-size: 16px;
-    line-height: 24px;
-    color: rgba(147, 156, 163, 1);
-    margin-left: 33px;
-    cursor: pointer;
-  }
-  .form-email-pass {
-    position: absolute;
-    bottom: 160px;
-  }
-  .continue-with-both {
-    position: absolute;
-    top: 550px;
-  }
-
-  .or-connect-with {
-    position: absolute;
-    bottom: 160px;
-    font-weight: 600;
-    font-size: 12px;
-    line-height: 16px;
-    color: rgba(0, 0, 0, 1);
-    height: 16px;
-  }
-
-  .or-connect-with span {
-    text-decoration: line-through;
-    text-decoration-thickness: 2px;
-    color: rgba(206, 212, 218, 1);
-  }
-
-  .form-email-pass form input {
-    width: 312px;
-    height: 32px;
-  }
-}
 .or-connect-with span span {
   display: none;
 }
@@ -315,7 +217,10 @@ input[type="checkbox"] {
   border-color: white;
   color: white;
 }
-
+.main-head {
+  position: absolute;
+  left: 593px;
+}
 .feature1-box-head {
   margin-top: 24px;
   margin-left: 16px;
@@ -359,4 +264,299 @@ input[type="checkbox"] {
   line-height: 18px;
   margin-bottom: 8px;
   color: rgba(8, 9, 10, 1);
+}
+.main {
+  padding-left: 300px;
+  padding-top: 24px;
+  padding-bottom: 219px;
+}
+.parent-box {
+  margin-right: 40px;
+  margin-top: 112px;
+}
+
+.parent-big-box {
+  width: 840px;
+  height: 542px;
+  padding: 40px;
+}
+@media only screen and (max-width: 600px) {
+  .navbar {
+    height: 48px;
+    width: 360px;
+  }
+  .hobbycue-logo {
+    display: none;
+  }
+
+  .hobbycue-logo-sm {
+    display: block;
+  }
+  .home-screen {
+    width: 360px;
+    height: 720px;
+    display: flex;
+    flex-direction: column;
+  }
+  .home-screen .left {
+    width: 360px;
+    margin-top: 32px;
+    margin-left: 24px;
+  }
+  .head-explore {
+    font-weight: 600;
+    font-style: italic;
+    font-size: 18px;
+    line-height: 27px;
+  }
+  .head-explore-sign-des {
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 22px;
+    color: rgba(0, 0, 0, 1);
+    margin-top: 16px;
+    width: 312px;
+  }
+  .head-explore-sign-des span {
+    display: none;
+  }
+  .head-explore-If-des {
+    display: none;
+  }
+
+  .home-screen-left-image {
+    position: absolute;
+    bottom: -59px;
+  }
+  .sign-in-box {
+    width: 312px;
+    height: 364px;
+    margin-top: 48px;
+    margin-left: 24px;
+    margin-right: 24px;
+  }
+  .sign-in-box .d-flex {
+    justify-content: center;
+  }
+  .sign-in-box .signin {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    cursor: pointer;
+    color: rgba(147, 156, 163, 1);
+    /* color: rgba(128, 100, 162, 1);
+    border-bottom: solid 2px rgba(128, 100, 162, 1); */
+  }
+
+  .sign-in-box .joinin {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: rgba(147, 156, 163, 1);
+    margin-left: 33px;
+    cursor: pointer;
+  }
+  .form-email-pass {
+    position: absolute;
+    bottom: 150px;
+  }
+  .continue-with-both {
+    position: absolute;
+    top: 550px;
+  }
+  .continue-with-both div {
+    /* margin-top: 0px; */
+  }
+  .google-facebook-button {
+  }
+  .or-connect-with {
+    position: absolute;
+    bottom: 100px;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 16px;
+    color: rgba(0, 0, 0, 1);
+    height: 16px;
+  }
+
+  .or-connect-with span {
+    text-decoration: line-through;
+    text-decoration-thickness: 2px;
+    color: rgba(206, 212, 218, 1);
+  }
+
+  .form-email-pass form input {
+    width: 312px;
+    height: 32px;
+  }
+
+  .form-email-pass form span {
+    margin-left: -100px;
+  }
+  .checkbox {
+    display: none;
+  }
+
+  .button-continue-with {
+    margin-bottom: 16px;
+    margin-top: 15px;
+    width: 100%;
+    height: 32px;
+    border: solid rgba(128, 100, 162, 1) 1px;
+    background-color: rgba(128, 100, 162, 1);
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 16px;
+    color: white;
+  }
+  .button-continue-with-google {
+    margin-top: -100px;
+    background-color: white;
+    color: black;
+  }
+  .icon-google {
+    margin-left: -85px;
+  }
+  .icon-facebook {
+    margin-left: -78px;
+  }
+  .button-continue-with-facebook {
+    margin-top: -70px;
+    background-color: white;
+    color: black;
+  }
+  .main-head {
+    position: absolute;
+    left: 50px;
+  }
+  .feature1-box {
+    height: 142px;
+    width: 312px;
+    border: solid 1px rgba(206, 212, 218, 1);
+    border-radius: 8px;
+    margin-left: 5px;
+  }
+  .feature1-box-people {
+    margin-top: 50px;
+  }
+  .feature1-box-head {
+    margin-top: 0px;
+    margin-left: 0px;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 27px;
+  }
+
+  .feature1-box-des {
+    margin-top: 12px;
+    margin-left: 24px;
+    margin-right: 24px;
+    margin-bottom: 12px;
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 20px;
+    align-items: center;
+  }
+  .feature1-box-btn {
+    margin-left: 24px;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 16px;
+    width: 264px;
+    height: 32px;
+    border: solid 1px rgba(128, 100, 162, 1);
+    color: rgba(128, 100, 162, 1);
+  }
+  .feature1-box-top {
+    margin: 48px 24px;
+    flex-direction: column;
+  }
+  .feature1-box-top-section {
+    margin-right: 0px;
+  }
+  .add-your-own {
+    background-color: white;
+    width: 312px;
+    height: 236px;
+    /* padding-bottom: 48px; */
+    border: solid rgba(206, 212, 218, 1) 1px;
+    border-radius: 8px;
+  }
+  .add-your-own-parent {
+    padding: 48px 24px;
+  }
+
+  .add-your-own .feature1-box-head {
+    /* background-color: red; */
+    /* margin-right: -10px; */
+    margin-left: 52px;
+    margin-right: 72px;
+    margin-top: 24px;
+  }
+  .testimonials-real .add-your-own {
+    height: 612px;
+  }
+  .end .head-explore {
+    margin-top: 24px;
+    margin-left: 24px;
+  }
+  .end .btn {
+    margin-top: 24px;
+    margin-left: 24px;
+    padding: 0;
+    width: 104px;
+    height: 28px;
+    font-weight: 600;
+    font-size: 20;
+  }
+  .end-img {
+    margin-left: 24px;
+    padding-bottom: 16px;
+    margin-top: 48px;
+  }
+
+  .footer-col div {
+    font-weight: 400;
+    font-size: 9px;
+    line-height: 18px;
+    margin-bottom: 8px;
+    color: rgba(8, 9, 10, 1);
+  }
+  .footer-next {
+    padding-top: 24px;
+    padding-bottom: 0px;
+    padding-left: 24px;
+    padding-right: 0px;
+    flex-direction: column;
+  }
+  .copyright {
+    padding-left: 90px;
+    padding-right: 90px;
+    padding-bottom: 11px;
+    padding-top: 11px;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+  }
+  .social-media {
+    width: 304px;
+  }
+  .main {
+    padding-left: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+  .parent-box {
+    margin-right: 0px;
+    margin-top: 0px;
+  }
+  .parent-big-box {
+    flex-direction: column;
+    width: 360px;
+    /* height: 542px; */
+    padding: 0px;
+  }
+}
+
+.audio-side-profile {
 }

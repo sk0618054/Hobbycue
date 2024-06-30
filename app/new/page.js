@@ -25,22 +25,59 @@ export default function New() {
           width={293}
           height={60}
           // fill
-          className=""
+          className="hobbycue-logo"
           style={{ marginLeft: 97, marginRight: 35 }}
         />
 
-        {/* </div> */}
+        <Image
+          src="logo.svg"
+          alt=""
+          width={156}
+          height={32}
+          className="hobbycue-logo-sm"
+          style={{ marginLeft: 22 }}
+        />
+        <Image
+          src="searchblue.svg"
+          alt=""
+          width={24}
+          height={24}
+          style={{ marginLeft: 27 }}
+          className="hobbycue-logo-sm"
+        />
+        <Image
+          src="bell.svg"
+          alt=""
+          width={24}
+          height={24}
+          style={{ marginLeft: "-15px" }}
+          className="hobbycue-logo-sm"
+        />
         <button
-          className="navbar-toggler"
+          className="navbar-toggler border-0"
           type="button"
           data-bs-toggle="collapse"
           data-bs-target="#navbarSupportedContent"
           aria-controls="navbarSupportedContent"
           aria-expanded="false"
           aria-label="Toggle navigation"
+          style={{
+            height: 24,
+            width: 24,
+            marginRight: 23,
+            marginLeft: "-15px",
+          }}
         >
-          <span className="navbar-toggler-icon"></span>
+          <Image
+            src="menu1.svg"
+            alt=""
+            width={24}
+            height={24}
+            className="hobbycue-logo-sm border-0"
+            style={{ marginLeft: "-12px", marginTop: "-5px" }}
+          />
         </button>
+
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <form className="d-flex custom-form">
             <input
@@ -271,11 +308,8 @@ export default function New() {
         </div>
       </nav>
       <main
-        className=""
+        className="main"
         style={{
-          paddingLeft: 300,
-          paddingTop: 24,
-          paddingBottom: 219,
           backgroundColor: "#f8f9fa",
         }}
       >
@@ -283,21 +317,15 @@ export default function New() {
 
         <div
           style={{
-            width: 840,
-            height: 542,
             backgroundColor: "white",
-            padding: 40,
           }}
-          className="d-flex "
+          className="d-flex parent-big-box "
         >
-          <div
-            className="feature1-box-head"
-            style={{ position: "absolute", left: "593px" }}
-          >
+          <div className="feature1-box-head main-head" style={{}}>
             <Image src="Add.svg" alt="" width={40} height={40} className="" />
             &nbsp;&nbsp;&nbsp; Add your own
           </div>
-          <div style={{ marginRight: 40, marginTop: 112 }}>
+          <div style={{}} className="parent-box">
             {/* Box1 */}
             <div
               className="feature1-box feature1-box-people"
@@ -344,7 +372,7 @@ export default function New() {
             </div>
           </div>
 
-          <div style={{ marginRight: 40, marginTop: 112 }}>
+          <div style={{}} className="parent-box">
             {/* Box3 */}
             <div
               className="feature1-box feature3-box-people"
