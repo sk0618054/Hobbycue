@@ -84,7 +84,12 @@ export default function Home() {
               aria-label="Search"
               style={{ width: 260, height: 40 }}
             />
-            <button className="btn custom-search-btn" type="submit">
+            <button className="btn custom-search-btn" type="submit" 
+              style={{
+                backgroundColor: "rgb(128, 100, 162)",
+                borderTopLeftRadius: "0px",
+                borderBottomLeftRadius: "0px",
+              }}>
               <Image
                 src="search.svg"
                 alt=""
@@ -937,6 +942,9 @@ export default function Home() {
                     className="btn custom-search-btn "
                     style={{
                       color: "rgba(255, 255, 255, 1)",
+                      backgroundColor: "rgb(128, 100, 162)",
+                      borderTopLeftRadius: "0px",
+                      borderBottomLeftRadius: "0px",
                     }}
                     type="submit"
                   >
