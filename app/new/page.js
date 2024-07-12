@@ -18,17 +18,14 @@ export default function New() {
     <div>
       {/* <Navbar /> */}
       <nav className="navbar navbar-expand-lg ">
-        {/* <div> */}
         <Image
           src="logo.svg"
           alt=""
           width={293}
           height={60}
-          // fill
           className="hobbycue-logo"
           style={{ marginLeft: 97, marginRight: 35 }}
         />
-
         <Image
           src="logo.svg"
           alt=""
@@ -280,27 +277,16 @@ export default function New() {
                   />
                 </a>
               </li>
-              <li className="nav-item" style={{ marginTop: -10 }}>
+              <li className="nav-item">
                 <a
                   className="nav-link "
                   href="#"
                   tabindex="-1"
                   aria-disabled="true"
                 >
-                  <Image
-                    src="dp.svg"
-                    alt=""
-                    width={48}
-                    height={48}
-                    className=""
-                  />
-                  <Image
-                    src="arrowdown.svg"
-                    alt=""
-                    width={24}
-                    height={24}
-                    className=""
-                  />
+                  <button className="btn " type="submit">
+                    Sign In
+                  </button>
                 </a>
               </li>
             </ul>
@@ -339,7 +325,7 @@ export default function New() {
                   alt=""
                   width={40}
                   height={40}
-                  className=""
+                  className="newpeopleimg"
                 />
                 &nbsp;&nbsp;&nbsp; People
               </div>

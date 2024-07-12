@@ -659,7 +659,7 @@ export default function Home() {
                 height={40}
                 className=""
               />
-              Testimonials
+              <span>Testimonials</span>
             </div>
             <div className="feature1-box-des">
               In a fast growing and ever changing city like Bangalore, it

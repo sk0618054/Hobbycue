@@ -2,6 +2,9 @@
   height: 80px;
 }
 
+.hobbycue-logo-sm {
+  display: none;
+}
 .dropdown-toggle::after {
   display: none;
 }
@@ -441,8 +444,8 @@ input[type="checkbox"] {
     margin-top: 50px;
   }
   .feature1-box-head {
-    margin-top: 0px;
-    margin-left: 0px;
+    margin-left: 25px;
+    margin-top: 15px;
     font-size: 18px;
     font-weight: 600;
     line-height: 27px;
@@ -493,6 +496,8 @@ input[type="checkbox"] {
     margin-left: 52px;
     margin-right: 72px;
     margin-top: 24px;
+  }
+  .newpeopleimg {
   }
   .testimonials-real .add-your-own {
     height: 612px;
@@ -548,8 +553,8 @@ input[type="checkbox"] {
     padding-bottom: 0px;
   }
   .parent-box {
-    margin-right: 0px;
-    margin-top: 0px;
+    margin-left: 17px;
+    margin-top: 10px;
   }
   .parent-big-box {
     flex-direction: column;

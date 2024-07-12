@@ -134,9 +134,6 @@
   border-radius: 0px;
 }
 
-.or-connect-with span span {
-  display: none;
-}
 .continue-with-icon {
   position: absolute;
 
@@ -380,7 +377,7 @@
 
   .home-screen-left-image {
     position: absolute;
-    bottom: -59px;
+    bottom: -132px;
   }
   .sign-in-box {
     width: 312px;
@@ -439,6 +436,10 @@
     color: rgba(206, 212, 218, 1);
   }
 
+  .or-connect-with span span {
+    display: none;
+  }
+
   .form-email-pass form input {
     width: 312px;
     height: 32px;
@@ -488,12 +489,14 @@
 
   .feature1-box-head {
     margin-top: 26px;
-    margin-left: 104px;
+    margin-left: 90px;
     font-size: 18px;
     font-weight: 600;
     line-height: 27px;
   }
-
+  .feature1-box-head span {
+    margin-left: 25px;
+  }
   .feature1-box-des {
     margin-top: 12px;
     margin-left: 24px;
@@ -503,6 +506,7 @@
     font-weight: 300;
     line-height: 20px;
     align-items: center;
+    text-align: center;
   }
   .feature1-box-btn {
     margin-left: 24px;
