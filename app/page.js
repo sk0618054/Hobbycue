@@ -15,7 +15,7 @@ export default function Home() {
   }, []);
 
   return (
-    <div>
+    <div className="full">
       {/* <Navbar /> */}
       <nav className="navbar navbar-expand-lg ">
         <Image
